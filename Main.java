@@ -9,10 +9,6 @@ import TransactionReporting.*;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		String[] params={};
-		
 		SelectMethod();         // show the list of available methods		
 	}
 	
@@ -31,6 +27,8 @@ public class Main {
         
         System.out.println(processToRun);
         RunMethod(processToRun);
+        
+        user_input.close();   // release to cancel resource leak
     }
 	
 	private static void ShowMethods()
