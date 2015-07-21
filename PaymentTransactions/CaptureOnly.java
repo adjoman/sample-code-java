@@ -49,6 +49,7 @@ public class CaptureOnly {
         // Make the API Request
         CreateTransactionRequest apiRequest = new CreateTransactionRequest();
         apiRequest.setTransactionRequest(txnRequest);
+        
         CreateTransactionController controller = new CreateTransactionController(apiRequest);
         controller.execute();
 
