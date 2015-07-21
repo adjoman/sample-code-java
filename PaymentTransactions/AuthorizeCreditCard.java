@@ -66,7 +66,6 @@ public class AuthorizeCreditCard {
                 System.out.println("Failed Transaction:  " + response.getMessages().getResultCode());
             }
         }
-
     }
 		
 }
