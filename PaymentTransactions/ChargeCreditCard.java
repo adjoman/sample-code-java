@@ -75,8 +75,5 @@ public class ChargeCreditCard {
                 System.out.println("Failed Transaction:  " + response.getMessages().getResultCode());
             }
         }
-    }
-		
 	}
-
 }
